@@ -17,7 +17,6 @@ import kids9 from "@/assets/gallery/kids-9.jpg";
 
 const categories = [
   { id: "all", label: "All" },
-  { id: "newborn", label: "Newborn" },
   { id: "kids", label: "Kids" },
   { id: "maternity", label: "Maternity" },
   { id: "festivals", label: "Festivals" },
@@ -25,7 +24,8 @@ const categories = [
 
 const galleryImages: { id: number; category: string; src: string; alt: string }[] = [
   { id: 1, category: "kids", src: kids1, alt: "Traditional festival themed baby photoshoot with marigolds" },
-  { id: 2, category: "newborn", src: newborn1, alt: "Newborn baby in pink wrap with teddy bear" },
+  { id: 2, category: "kids", src: newborn1, alt: "Newborn baby in pink wrap with teddy bear" },
+  
   { id: 3, category: "kids", src: kids2, alt: "Beach themed kids photoshoot with umbrella" },
   { id: 4, category: "kids", src: kids3, alt: "First birthday piano themed photoshoot" },
   { id: 5, category: "kids", src: kids4, alt: "Lemon bath themed baby photoshoot" },
