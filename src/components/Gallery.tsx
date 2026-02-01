@@ -51,7 +51,7 @@ const galleryImages: { id: number; category: string; src: string; alt: string }[
 ];
 
 const Gallery = () => {
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [activeCategory, setActiveCategory] = useState("kids");
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const filteredImages =
@@ -78,7 +78,7 @@ const Gallery = () => {
           </div>
 
           {/* Category Tabs */}
-          <Tabs defaultValue="all" className="w-full">
+          <Tabs defaultValue="kids" className="w-full">
             <TabsList className="flex flex-wrap justify-center gap-2 bg-transparent mb-12">
               {categories.map((category) => (
                 <TabsTrigger
