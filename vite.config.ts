@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/bliss-photo-nest/",
+  base: "/bliss/",
   server: {
     host: "::",
     port: 8080,
