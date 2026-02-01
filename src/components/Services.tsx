@@ -90,6 +90,30 @@ const Services = () => {
               </Card>
             ))}
           </div>
+
+          {/* Themed Photography Text */}
+          <div className="mt-16 text-center max-w-3xl mx-auto">
+            <h3 className="font-serif text-2xl md:text-3xl text-charcoal mb-6">
+              Custom Themed Setups for Every Special Moment
+            </h3>
+            <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p>
+                At Bliss Photos, we understand that every celebration deserves a unique touch. 
+                That's why we offer beautifully designed <span className="font-semibold text-charcoal">custom themed photography setups</span> created 
+                especially for kids, newborns, and maternity shoots.
+              </p>
+              <p>
+                Whether it's a festive celebration like <span className="font-semibold text-charcoal">Diwali, Christmas, Eid, Ganesh Festival</span>, or 
+                any other cherished occasion — we bring the magic to life with thoughtfully crafted backdrops and props 
+                that make your photos truly memorable.
+              </p>
+              <p>
+                From <span className="font-semibold text-charcoal">birthday milestones and seasonal themes</span> to traditional and cultural celebrations, 
+                our studio is ready to create the perfect setting for your little one's special moments. 
+                Just share your vision with us, and we'll make it happen with warmth and creativity.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
