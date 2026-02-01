@@ -52,7 +52,7 @@ const Hero = () => {
               className="border-2 border-rose-gold text-charcoal hover:bg-rose-gold hover:text-white px-8 py-6 text-lg rounded-full transition-all"
             >
               <a
-                href="https://wa.me/919049074865?text=Hi%2C%20I%20would%20like%20to%20book%20a%20photography%20session"
+                href="https://wa.me/919049074865?text=Hi%20Bliss%20Photos,%20I%20would%20like%20to%20book%20a%20session"
                 target="_blank"
                 rel="noopener noreferrer"
               >
