@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Menu, X, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import logo from "@/assets/logo.jpg";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -49,9 +50,11 @@ const Header = () => {
             }}
             className="flex items-center"
           >
-            <span className="font-serif text-2xl md:text-3xl font-semibold text-charcoal">
-              Bliss Photos
-            </span>
+            <img 
+              src={logo} 
+              alt="Bliss Photos - Newborn, Kids & Maternity Photography" 
+              className="h-10 md:h-12 w-auto"
+            />
           </a>
 
           {/* Desktop Navigation */}
@@ -99,9 +102,11 @@ const Header = () => {
               </SheetTrigger>
               <SheetContent side="right" className="bg-cream w-[280px]">
                 <div className="flex flex-col gap-6 mt-8">
-                  <span className="font-serif text-2xl font-semibold text-charcoal">
-                    Bliss Photos
-                  </span>
+                  <img 
+                    src={logo} 
+                    alt="Bliss Photos" 
+                    className="h-10 w-auto"
+                  />
                   {navLinks.map((link) => (
                     <a
                       key={link.href}

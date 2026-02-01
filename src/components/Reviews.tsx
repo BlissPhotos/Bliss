@@ -95,7 +95,7 @@ const Reviews = () => {
               See more reviews on Google
             </p>
             <a
-              href="https://www.google.com/search?q=bliss+photos+aurangabad+reviews"
+              href="https://share.google/2lqrXhmyNVP4kWPfI"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-charcoal hover:text-rose-gold transition-colors font-medium"
