@@ -48,13 +48,16 @@ const Header = () => {
               e.preventDefault();
               handleNavClick("#home");
             }}
-            className="flex items-center"
+            className="flex items-center gap-2"
           >
             <img 
               src={logo} 
-              alt="Bliss Photos - Newborn, Kids & Maternity Photography" 
+              alt="Bliss Photos" 
               className="h-10 md:h-12 w-auto"
             />
+            <span className="font-serif text-xl md:text-2xl font-semibold text-charcoal">
+              Bliss Photos
+            </span>
           </a>
 
           {/* Desktop Navigation */}
@@ -102,11 +105,16 @@ const Header = () => {
               </SheetTrigger>
               <SheetContent side="right" className="bg-cream w-[280px]">
                 <div className="flex flex-col gap-6 mt-8">
-                  <img 
-                    src={logo} 
-                    alt="Bliss Photos" 
-                    className="h-10 w-auto"
-                  />
+                  <div className="flex items-center gap-2">
+                    <img 
+                      src={logo} 
+                      alt="Bliss Photos" 
+                      className="h-10 w-auto"
+                    />
+                    <span className="font-serif text-xl font-semibold text-charcoal">
+                      Bliss Photos
+                    </span>
+                  </div>
                   {navLinks.map((link) => (
                     <a
                       key={link.href}
