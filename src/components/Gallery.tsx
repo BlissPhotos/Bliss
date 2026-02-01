@@ -3,6 +3,18 @@ import { Camera, X } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
+// Import gallery images
+import kids1 from "@/assets/gallery/kids-1.jpg";
+import newborn1 from "@/assets/gallery/newborn-1.jpg";
+import kids2 from "@/assets/gallery/kids-2.jpg";
+import kids3 from "@/assets/gallery/kids-3.jpg";
+import kids4 from "@/assets/gallery/kids-4.jpg";
+import kids5 from "@/assets/gallery/kids-5.jpg";
+import kids6 from "@/assets/gallery/kids-6.jpg";
+import kids7 from "@/assets/gallery/kids-7.jpg";
+import kids8 from "@/assets/gallery/kids-8.jpg";
+import kids9 from "@/assets/gallery/kids-9.jpg";
+
 const categories = [
   { id: "all", label: "All" },
   { id: "newborn", label: "Newborn" },
@@ -11,10 +23,17 @@ const categories = [
   { id: "festivals", label: "Festivals" },
 ];
 
-// Placeholder structure - images will be replaced with actual uploads
 const galleryImages: { id: number; category: string; src: string; alt: string }[] = [
-  // Add your images here in this format:
-  // { id: 1, category: "newborn", src: "/path/to/image.jpg", alt: "Newborn photo description" },
+  { id: 1, category: "kids", src: kids1, alt: "Traditional festival themed baby photoshoot with marigolds" },
+  { id: 2, category: "newborn", src: newborn1, alt: "Newborn baby in pink wrap with teddy bear" },
+  { id: 3, category: "kids", src: kids2, alt: "Beach themed kids photoshoot with umbrella" },
+  { id: 4, category: "kids", src: kids3, alt: "First birthday piano themed photoshoot" },
+  { id: 5, category: "kids", src: kids4, alt: "Lemon bath themed baby photoshoot" },
+  { id: 6, category: "kids", src: kids5, alt: "Traditional bullock cart themed photoshoot" },
+  { id: 7, category: "kids", src: kids6, alt: "Lemonade stand themed photoshoot" },
+  { id: 8, category: "kids", src: kids7, alt: "Lord Shiva themed baby photoshoot" },
+  { id: 9, category: "kids", src: kids8, alt: "Royal Maratha themed baby photoshoot" },
+  { id: 10, category: "kids", src: kids9, alt: "Krishna Janmashtami themed photoshoot" },
 ];
 
 const Gallery = () => {
