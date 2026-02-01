@@ -17,6 +17,12 @@ import maternity3 from "@/assets/gallery/maternity-3.jpg";
 import maternity4 from "@/assets/gallery/maternity-4.jpg";
 import maternity5 from "@/assets/gallery/maternity-5.jpg";
 
+// Import gallery images - Festivals
+import festival1 from "@/assets/gallery/festival-1.jpg";
+import festival2 from "@/assets/gallery/festival-2.jpg";
+import festival3 from "@/assets/gallery/festival-3.jpg";
+import festival4 from "@/assets/gallery/festival-4.png";
+
 const categories = [
   { id: "all", label: "All" },
   { id: "kids", label: "Kids" },
@@ -37,6 +43,11 @@ const galleryImages: { id: number; category: string; src: string; alt: string }[
   { id: 8, category: "maternity", src: maternity3, alt: "Green saree with peacock feathers maternity photoshoot" },
   { id: 9, category: "maternity", src: maternity4, alt: "Navy blue flowing gown maternity photoshoot" },
   { id: 10, category: "maternity", src: maternity5, alt: "Couple maternity photoshoot with announcement" },
+  // Festival photos (4)
+  { id: 11, category: "festivals", src: festival1, alt: "Maha Shivratri themed baby photoshoot" },
+  { id: 12, category: "festivals", src: festival2, alt: "Shivaji Maharaj themed baby photoshoot" },
+  { id: 13, category: "festivals", src: festival3, alt: "Krishna Janmashtami themed photoshoot" },
+  { id: 14, category: "festivals", src: festival4, alt: "Traditional village themed festival photoshoot" },
 ];
 
 const Gallery = () => {
